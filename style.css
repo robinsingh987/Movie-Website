@@ -276,7 +276,7 @@ body {
 /* Footer */
 
 
-@media only screen and (max-width: 940px){
+@media only screen and (max-width: 480px){
     .menu-container{
         display: none;
     }
