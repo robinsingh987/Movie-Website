@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS LINK HERE -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- GOOGLE FONT CDN HERE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Movie WebSite Project</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container" title="logo">
+          <h1 class="logo">RATFLIX</h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home</li>
+            <li class="menu-list-item">Movies</li>
+            <li class="menu-list-item">Series</li>
+            <li class="menu-list-item">Popular</li>
+            <li class="menu-list-item">Trends</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img
+            class="profile-picture"
+            title="profile"
+            src="/Images2/profile.jpg"
+            alt="profile-img"
+          />
+
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+      <i class="left-menu-icon fa-solid fa-house"></i>
+      <i class="left-menu-icon fa-solid fa-users"></i>
+      <i class="left-menu-icon fa-solid fa-bookmark"></i>
+      <i class="left-menu-icon fa-solid fa-tv"></i>
+      <i class="left-menu-icon fa-solid fa-hourglass"></i>
+      <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url(/Images2/banner.jpg);
+          "
+        >
+          <img class="featured-title" src="/Images2/f-t-1.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+            perferendis nostrum aut, soluta ex provident non nobis! Optio eos
+            eligendi, consectetur inventore provident, sapiente sunt
+            voluptatibus maxime eum itaque amet.
+          </p>
+          <button class="featured-button">WATCH</button>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">HINDI MOVIES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/shaitan1.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> SHAITAAN </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/haseena.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> HASEENA </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/370.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> ARTICLE 370 </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/balack out.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> BLACK OUT </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/fighter.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> FIGHTER </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/kalki.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> KALKI </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/crew.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> CREW </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right" id="arrow"></i>
+          </div>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">ENGLISH MOVIES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/Peaky-blinder2.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title">PEAKY BL.</span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/Dunc.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> DUNC </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/Gray-man.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> GRAY-MAN </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/uncharted.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> UNCHARTED </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/red-notice.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> RED-NOTICE </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/code.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> CODE </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/you.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> YOU </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right" id="arrow"></i>
+          </div>
+        </div>
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url(/Images2/f-2.jpg);
+          "
+        >
+          <img class="featured-title" src="/Images2/f-t-2.png" alt="img" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+            perferendis nostrum aut, soluta ex provident non nobis! Optio eos
+            eligendi, consectetur inventore provident, sapiente sunt
+            voluptatibus maxime eum itaque amet.
+          </p>
+          <button class="featured-button">WATCH</button>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">HORROR MOVIES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/horror-us.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> US </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/horror-room.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> ROOM 203 </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/horror-stopmotion.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> STOPMOTION </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/horro-devil.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> PRAY-DEVIL </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/horror-inheritance.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> INHERITANCE </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/horror-smile.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> SMILE </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/horro-talktome.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> TALKTOME </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right" id="arrow"></i>
+          </div>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">HINDI SERIES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/series-mirzapur.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> MIRZAPUR </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/series-railwayman.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> RAILWAYMAN </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/series-dahaaad.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> DAHAAD </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/series-intotheshodow.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> SHADOWS </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/series-mumbai.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> MUMBAI26/11 </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/series-kalakaari.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> KALIKALI </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img
+                  class="movie-list-item-img"
+                  src="/Images2/series-human.jpg"
+                  alt="img"
+                />
+                <span class="movie-list-item-title"> HUMAN </span>
+                <p class="movie-list-item-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                  tenetur aspernatur nam laudantium ab excepturi.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right" id="arrow"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <!-- Javascript Link Here -->
+    <script src="./script.js"></script>
+  </body>
+</html>
